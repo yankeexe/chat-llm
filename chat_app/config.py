@@ -11,6 +11,7 @@ class ConfigModel(BaseSettings):
     top_k: int = Field(default=1, ge=0.0, le=1)
     temperature: float = Field(default=0.8, ge=0.0, le=1)
     database_url: str = Field(default="chat_app.db")
+    database_provider: str = Field(default="sqlite3")
     # Add any 3rd party API keys in the future.
 
 

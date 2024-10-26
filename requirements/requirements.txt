@@ -1,3 +1,6 @@
 langchain-ollama==0.2.0
 streamlit==1.39.0
 pydantic-settings==2.6.0
+langchain-community==0.3.3
+SQLAlchemy==2.0.36
+langchain-postgres==0.0.12
