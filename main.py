@@ -1,4 +1,4 @@
-from chat_app.main import run
+from chat_app.app import run
 
 if __name__ == "__main__":
     run()
